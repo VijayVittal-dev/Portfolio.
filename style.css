@@ -1,0 +1,75 @@
+/* Global */
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: 'Arial', sans-serif; line-height:1.6; background:#f9fafb; color:#111827; }
+a { color:#2563eb; text-decoration:none; }
+h2 { text-align:center; font-size:2rem; margin-bottom:30px; }
+section { padding:60px 10%; max-width:1000px; margin:auto; }
+
+/* Hero */
+.hero { 
+  height:100vh; 
+  background:url('background.jpg') no-repeat center center/cover; 
+  display:flex; align-items:center; justify-content:center; text-align:center; 
+  position:relative; color:white;
+}
+.hero::after { content:""; position:absolute; inset:0; background:rgba(0,0,0,0.55); }
+.hero-content { position:relative; z-index:1; }
+.profile-img { width:160px; height:160px; border-radius:50%; border:4px solid #fff; margin-bottom:15px; }
+.hero h1 { font-size:2.5rem; margin-bottom:10px; }
+.tagline { font-size:1.2rem; margin-bottom:20px; }
+.stats { display:flex; justify-content:center; flex-wrap:wrap; gap:15px; margin-bottom:15px; }
+.stat-card { background:white; color:#333; padding:12px 20px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.25); }
+.socials a { margin:0 10px; font-size:1.5rem; color:white; }
+
+/* About */
+.about-intro { text-align:center; max-width:700px; margin:auto; margin-bottom:30px; }
+.about-grid { display:flex; flex-wrap:wrap; gap:20px; margin-top:20px; }
+.about-box { flex:1; min-width:250px; background:#f3f4f6; padding:20px; border-radius:8px; }
+.tag { display:inline-block; background:#e0e0e0; padding:6px 12px; border-radius:20px; margin:5px; font-size:0.9rem; }
+
+/* Cards (Education, Experience, Projects) */
+.card { background:#fff; padding:20px; border-radius:8px; margin-bottom:20px; box-shadow:0 2px 6px rgba(0,0,0,0.1); }
+.grid { display:grid; gap:20px; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); }
+
+/* Skills */
+.skills { display:flex; flex-wrap:wrap; gap:10px; justify-content:center; }
+.skills span { background:#e5e7eb; padding:8px 14px; border-radius:20px; font-size:14px; }
+
+/* Contact */
+#contact p { text-align:center; margin:8px 0; }
+
+/* Footer */
+footer { text-align:center; padding:20px; background:#111827; color:#d1d5db; margin-top:20px; }
+/* Hero Section */
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url("https://miro.medium.com/v2/resize:fit:1100/format:webp/1*NeZgGMM3JAICzfzt-F_UUg.jpeg") no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* dark overlay for readability */
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.profile-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 4px solid white;
+  margin-bottom: 15px;
+}
