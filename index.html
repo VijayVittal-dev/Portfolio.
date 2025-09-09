@@ -1,147 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nallani Vijay Vittal - Portfolio</title>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nallani Vijay Vittal - Professional Portfolio</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
 </head>
 <body>
 
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-logo">Vijay Vittal</a>
+      <ul class="nav-menu">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
   <!-- Hero Section -->
-  <header class="hero">
-    <div class="overlay"></div>
-<div class="hero-content">
-<img src="profile1.jpg" alt="Profile Photo" class="profile-img">
-      <h1>Nallani Vijay Vittal</h1>
-      <p class="tagline">Frontend Developer | Tech Enthusiast</p>
-
-      <!-- Stats -->
-      <div class="stats">
-        <div class="stat-card"><strong>CGPA:</strong> 6.34</div>
-        <div class="stat-card"><strong>Skills:</strong> HTML, CSS, JS, Python</div>
-        <div class="stat-card"><strong>Projects:</strong> 3+</div>
-        <div class="stat-card"><strong>Certifications:</strong> 2</div>
+  <header id="hero" class="hero-section">
+    <div class="container hero-container">
+      <div class="hero-left">
+        <img src="profile1.jpg" alt="Profile Photo of Nallani Vijay Vittal" class="profile-img" />
       </div>
-
-      <!-- Socials -->
-      <div class="socials">
-        <a href="mailto:vijayvittal276@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-        <a href="https://github.com/VijayVittal-dev" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <div class="hero-right">
+        <h1 class="hero-title">Nallani Vijay Vittal</h1>
+        <p class="hero-subtitle">Frontend Developer | Tech Enthusiast | Innovator</p>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number">6.98</span>
+            <span class="stat-label">CGPA</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">HTML, CSS, JS, Python</span>
+            <span class="stat-label">Core Skills</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">3+</span>
+            <span class="stat-label">Projects Completed</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">6</span>
+            <span class="stat-label">Certifications</span>
+          </div>
+        </div>
+        <div class="hero-socials">
+          <a href="mailto:vijayvittal276@gmail.com" aria-label="Email" class="social-link"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://github.com/VijayVittal-dev" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="social-link"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-link"><i class="fab fa-linkedin"></i></a>
+        </div>
       </div>
     </div>
   </header>
 
-  <!-- About Me -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p class="about-intro">
-      I am passionate about technology and innovation, currently pursuing Computer Science & Engineering while actively working on frontend projects and web development.
-    </p>
-    <div class="about-grid">
-      <div class="about-box">
-        <h3>Key Highlights</h3>
-        <span class="tag">Computer Science & Engineering Student</span>
-        <span class="tag">Machine Learning Enthusiast</span>
-        <span class="tag">Frontend Developer</span>
-        <span class="tag">Full-Stack Developer</span>
-        <span class="tag">Database Enthusiast</span>
+  <!-- About Section -->
+  <section id="about" class="section section-light">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p class="section-subtitle">
+        Passionate Computer Science & Engineering student focused on frontend development and emerging technologies. Dedicated to crafting impactful, user-centric digital experiences.
+      </p>
+      <div class="about-grid">
+        <div class="about-card">
+          <h3>Key Highlights</h3>
+          <ul>
+            <li><strong>Computer Science & Engineering Student</strong> at SR University</li>
+            <li><strong>Machine Learning Enthusiast</strong> exploring data-driven solutions</li>
+            <li>Proficient <strong>Frontend Developer</strong> with strong UI/UX skills</li>
+            <li>Aspiring <strong>Full-Stack Developer</strong> building end-to-end applications</li>
+            <li><strong>Database Enthusiast</strong> with solid data management knowledge</li>
+          </ul>
+        </div>
+        <div class="about-card">
+          <h3>What Drives Me</h3>
+          <ul>
+            <li>Creating impactful, user-friendly digital solutions</li>
+            <li>Continuous learning and staying updated with new technologies</li>
+            <li>Collaborating effectively within diverse teams</li>
+            <li>Transforming complex ideas into intuitive web experiences</li>
+          </ul>
+        </div>
       </div>
-      <div class="about-box">
-        <h3>What Drives Me</h3>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section section-dark">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="education-list">
+        <article class="education-item">
+          <h3>SR University</h3>
+          <p class="edu-degree">B.Tech in Computer Science & Engineering <span class="edu-date">2023 – 2027</span></p>
+          <p>Currently pursuing a Bachelor's degree focusing on core computer science principles, algorithms, and software development.</p>
+        </article>
+        <article class="education-item">
+          <h3>Sri Chaitanya</h3>
+          <p class="edu-degree">Intermediate (MPC) <span class="edu-date">2021 – 2023</span></p>
+          <p>Completed intermediate education with focus on Mathematics, Physics, and Chemistry, building strong analytical skills.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+<section id="projects" class="section section-light">
+  <div class="container">
+    <h2 class="section-title">Featured Projects</h2>
+    <div class="projects-grid">
+      <article class="project-card">
+        <h3>EcoShop (Shopping Web App)</h3>
+        <p class="project-desc">A polished, responsive e-commerce interface offering a seamless shopping experience.</p>
+        <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
         <ul>
-          <li>Creating impactful and user-friendly digital solutions.</li>
-          <li>Continuous learning and staying updated with emerging technologies.</li>
-          <li>Collaborating and contributing to innovative projects.</li>
+          <li>Clear layout and intuitive navigation for product browsing</li>
+          <li>Diverse product showcase with price tags and "Add to Cart" functionality</li>
+          <li>Secure login and streamlined checkout flow</li>
         </ul>
+        <a href="https://vijayvittal-dev.github.io/shopping-web/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Live Demo</a>
+      </article>
+
+      <article class="project-card">
+        <h3>FoodMunch (Food Service Website)</h3>
+        <p class="project-desc">Modern landing page for a food delivery service emphasizing freshness and user engagement.</p>
+        <p><strong>Technologies:</strong> HTML, CSS, Bootstrap</p>
+        <ul>
+          <li>Highlights fresh, organic produce and enticing menu visuals</li>
+          <li>Live delivery tracking, multiple payment options, embedded video</li>
+          <li>Engaging sections like “Why Choose Us?” and “Delivery & Payment”</li>
+        </ul>
+        <a href="https://vijayvittal-dev.github.io/foodmunch/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Live Demo</a>
+      </article>
+
+      <article class="project-card">
+        <h3>TaskFlow Pro (Task Manager App)</h3>
+        <p class="project-desc">Intuitive productivity web app for managing daily tasks with clarity.</p>
+        <p><strong>Technologies:</strong> HTML, CSS</p>
+        <ul>
+          <li>Dashboard with key metrics: Total, Completed, Pending, Overdue tasks</li>
+          <li>Task creation with Title, Description, Category, Priority, Due Date</li>
+          <li>Clean UI to help users stay on top of workflow</li>
+        </ul>
+        <a href="https://vijayvittal-dev.github.io/task-manager-app/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Live Demo</a>
+      </article>
+
+      <article class="project-card">
+        <h3>SmartGov School Management System</h3>
+        <p class="project-desc">A comprehensive school management dashboard designed for streamlined operations.</p>
+        <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+        <ul>
+          <li>Core modules: Attendance, Budget, Maintenance, Analytics, Communication</li>
+          <li>Student and teacher database management</li>
+          <li>Automated attendance tracking</li>
+          <li>Financial tracking and budget allocation</li>
+          <li>Maintenance request reporting</li>
+          <li>Performance analytics for students and teachers</li>
+          <li>Parent-teacher communication tools</li>
+        </ul>
+        <a href="https://vijayvittal-dev.github.io/SCHOOL_MANAGEMENT_DATABASE/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Live Demo</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section section-dark">
+    <div class="container">
+      <h2 class="section-title">Technical Skills & Competencies</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Programming Languages</h3>
+          <ul class="skill-list">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript (ES6+)</li>
+            <li>Python</li>
+            <li>C</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Frontend Development</h3>
+          <ul class="skill-list">
+            <li>Bootstrap</li>
+            <li>Responsive Design</li>
+            <li>UI/UX Principles</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Tools & Platforms</h3>
+          <ul class="skill-list">
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>VS Code</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Soft Skills</h3>
+          <ul class="skill-list">
+            <li>Teamwork</li>
+            <li>Problem-solving</li>
+            <li>Communication</li>
+            <li>Adaptability</li>
+            <li>Time Management</li>
+            <li>Attention to Detail</li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Education -->
-  <section id="education">
-    <h2>Education</h2>
-    <div class="card">
-      <h3>SR University</h3>
-      <p><strong>B.Tech in Computer Science & Engineering</strong> | 2023 – 2027</p>
-    </div>
-    <div class="card">
-      <h3>Sri Chaitanya</h3>
-      <p>Intermediate (MPC) | 2021 – 2023</p>
-    </div>
-  </section>
-
-  <!-- Experience -->
-  <section id="experience">
-    <h2>Experience</h2>
-    <div class="card">
-      <h3>Agetware – Backend Developer Intern</h3>
-      <p><strong>Skills Required:</strong> Python</p>
-      <ul>
-        <li>Worked on backend development using Python.</li>
-        <li>Collaborated with team to improve backend APIs and data handling.</li>
-        <li>Gained hands-on experience with real-world backend systems.</li>
-      </ul>
-      <p><a href="https://agetware.com" target="_blank">Company Website</a> | 
-         <a href="https://www.linkedin.com/company/agetwaresolutions/about/" target="_blank">LinkedIn Page</a></p>
-    </div>
-
-    <div class="card">
-      <h3>Frontend Developer (Project Work)</h3>
-      <p><strong>School Management System</strong></p>
-      <ul>
-        <li>Developed responsive frontend using HTML, CSS, JavaScript & Bootstrap</li>
-        <li>Designed intuitive UIs for managing students, teachers, classes, and exams</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Projects -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="grid">
-      <div class="card">
-        <h3>School Management System</h3>
-        <p>Responsive frontend for academic operations.</p>
-        <p><strong>Tech:</strong> HTML, CSS, JS, Bootstrap</p>
-      </div>
-      <div class="card">
-        <h3>Portfolio Website</h3>
-        <p>Personal responsive portfolio site.</p>
-        <p><strong>Tech:</strong> HTML, CSS, JS</p>
-      </div>
-      <div class="card">
-        <h3>Mini Python Projects</h3>
-        <p>CLI based projects for practice (calculator, todo, etc).</p>
-        <p><strong>Tech:</strong> Python</p>
+  <!-- Contact Section -->
+  <section id="contact" class="section section-light">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="section-subtitle">I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
+      <div class="contact-info">
+        <a href="mailto:vijayvittal276@gmail.com" class="contact-link"><i class="fa-solid fa-envelope"></i> vijayvittal276@gmail.com</a>
+        <a href="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav" target="_blank" rel="noopener noreferrer" class="contact-link"><i class="fab fa-linkedin"></i> linkedin.com/in/vijayvittal</a>
+        <a href="https://github.com/VijayVittal-dev" target="_blank" rel="noopener noreferrer" class="contact-link"><i class="fab fa-github"></i> github.com/VijayVittal-dev</a>
       </div>
     </div>
-  </section>
-
-  <!-- Skills -->
-  <section id="skills">
-    <h2>Skills</h2>
-    <div class="skills">
-      <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Bootstrap</span>
-      <span>C</span><span>Python</span>
-      <span>Teamwork</span><span>Problem-solving</span>
-      <span>Communication</span><span>Adaptability</span><span>Time Management</span>
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:vijayvittal276@gmail.com">vijayvittal276@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav" target="_blank">linkedin.com/in/vijayvittal</a></p>
-    <p>GitHub: <a href="https://github.com/VijayVittal-dev" target="_blank">github.com/VijayVittal-dev</a></p>
   </section>
 
   <!-- Footer -->
-  <footer>
-    <p>© 2025 Nallani Vijay Vittal | All Rights Reserved</p>
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Nallani Vijay Vittal | All Rights Reserved</p>
+    </div>
   </footer>
 
   <script src="script.js"></script>
